@@ -1,0 +1,36 @@
+<!-- Wordguess Game -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wordguess Game</title>
+    <script type="text/javascript" src="assets/javascript/gamebasic.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
+
+    <style>
+            #Wins { 
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>Guess what letter I am thinking of:</header>
+
+        <h1 id="winsWrapper">Wins:<span id="wins">0</span></h1>
+        <br>
+        <h1>Losses: <span id="losses">0</span></h1> 
+        <br>
+        <h1>Guesses Left: <span id="guessesLeft">7</span></h1>
+        <br>
+        <h1>Guesses So Far: <span id="guessesSoFar">none</span></h1>
+        <br>
+        
+        <input type="text" id="guess" placeholder="">
+        <button onclick="make_guess();">Guess!</button>
+
+    </body>
+    
+    </html>

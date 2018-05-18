@@ -1,0 +1,13 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 20px;
+}
+
+header {
+    font-size: 25px;
+}
+
+#wins #winsWrapper {
+    font-size: 20px;
+}
