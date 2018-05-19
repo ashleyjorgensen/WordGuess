@@ -2,12 +2,22 @@
 body {
     font-family: Arial, Helvetica, sans-serif;  
     padding: 20px;
+    background-image: url("../images/food/food.png");
 }
 
 header {
-    font-size: 25px;
+    text-align: center;
+    font-size: 30px;
+    border-style: 1px solid black; 
 }
 
-#wins #winsWrapper {
+.MainWrapper  {
     font-size: 20px;
+    padding: 20px;
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 25px;
 }
